@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">Login Form</div>
+            <div class="title singup">Singup Form</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slider" id="login" checked>
+                <input type="radio" name="slider" id="singup">
+                <label for="login" class="slide login">Login </label>
+                <label for="singup" class="slide singup">Singup </label>
+                <div class="slide-tab"></div>
+            </div>
+            <div class="form-inner">
+                <!-- form 1 -->
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Email Addres" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Enter Password" required>
+                    </div>
+                    <div class="pass-link"><a href="#" class="">Forgot Password?</a></div>
+                    <div class="field">
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="singup-link">Not a member? <a href="#" class="">singup now</a></div>
+                </form>
+                <!-- form 2 -->
+                <form action="#" class="singup">
+                    <div class="field">
+                        <input type="text" placeholder="Email Addres" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Enter Password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="singup">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
